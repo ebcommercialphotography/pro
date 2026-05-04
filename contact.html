@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — EBCP</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <img src="logo.png" alt="EBCP" class="nav-logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+        <span class="nav-logo-text" style="display:none;">EBCP</span>
+      </a>
+      <button class="nav-hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="property.html">Property</a></li>
+        <li><a href="business.html">Business</a></li>
+        <li><a href="contact.html" class="nav-cta active">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="page-hero">
+    <div class="page-hero-inner reveal">
+      <p class="eyebrow">Get in Touch</p>
+      <h1 class="page-hero-title">Let's talk about<br><em>your shoot.</em></h1>
+      <p class="page-hero-sub">Fill out the form and I'll follow up within 24 hours. Not sure which package fits? Just describe what you're trying to accomplish — I'll recommend the right option.</p>
+    </div>
+  </section>
+
+  <section class="contact-section">
+    <div class="contact-inner">
+      <div class="contact-form-wrap reveal">
+        <form
+          class="contact-form"
+          action="https://formsubmit.co/andrewbuskirk@gmail.com"
+          method="POST"
+        >
+          <input type="hidden" name="_subject" value="New EBCP Website Inquiry">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_next" value="thankyou.html">
+          <div class="form-group">
+            <label class="form-label">Your Name</label>
+            <input class="form-input" type="text" name="name" placeholder="Jane Smith" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Email Address</label>
+            <input class="form-input" type="email" name="email" placeholder="jane@yourbusiness.com" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label">What are you looking for?</label>
+            <select class="form-input form-select" name="service">
+              <option value="">Select a service...</option>
+              <option>Property Standard (Real Estate) — from $175</option>
+              <option>Listing Launch (Airbnb/VRBO) — from $500</option>
+              <option>Local Search Boost (GMB) — from $450</option>
+              <option>Food & Interior Shoot — from $400</option>
+              <option>Not sure — help me decide</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Tell Me More</label>
+            <textarea class="form-input form-textarea" name="message" placeholder="Timeline, location, specific goals..." required></textarea>
+          </div>
+          <button class="btn-primary" type="submit">Send It →</button>
+        </form>
+      </div>
+      <div class="contact-details reveal">
+        <div class="contact-detail-item">
+          <div class="contact-detail-icon"><img src="icon-pin.png" alt="" onerror="this.outerHTML='📍'" style="width:22px;height:22px;"></div>
+          <div>
+            <div class="contact-detail-label">Based in</div>
+            <div class="contact-detail-value">Danville, California</div>
+          </div>
+        </div>
+        <div class="contact-detail-item">
+          <div class="contact-detail-icon"><img src="icon-camera.png" alt="" onerror="this.outerHTML='📸'" style="width:22px;height:22px;"></div>
+          <div>
+            <div class="contact-detail-label">Service Area</div>
+            <div class="contact-detail-value">East Bay & Greater Bay Area</div>
+          </div>
+        </div>
+        <div class="contact-detail-item">
+          <div class="contact-detail-icon"><img src="icon-instagram.png" alt="" onerror="this.outerHTML='📱'" style="width:22px;height:22px;"></div>
+          <div>
+            <div class="contact-detail-label">Instagram</div>
+            <div class="contact-detail-value"><a href="https://instagram.com/andrewbuskirk" target="_blank">@andrewbuskirk</a></div>
+          </div>
+        </div>
+        <div class="contact-detail-item">
+          <div class="contact-detail-icon"><img src="icon-grad.png" alt="" onerror="this.outerHTML='🎓'" style="width:22px;height:22px;"></div>
+          <div>
+            <div class="contact-detail-label">Portrait Work</div>
+            <div class="contact-detail-value"><a href="#">andrewbuskirk.com</a></div>
+          </div>
+        </div>
+        <div class="contact-detail-item">
+          <div class="contact-detail-icon"><img src="icon-calendar.png" alt="" onerror="this.outerHTML='📅'" style="width:22px;height:22px;"></div>
+          <div>
+            <div class="contact-detail-label">Availability</div>
+            <div class="contact-detail-value">June – September 2025</div>
+          </div>
+        </div>
+        <div class="contact-detail-item">
+          <div class="contact-detail-icon"><img src="icon-bolt.png" alt="" onerror="this.outerHTML='⚡'" style="width:22px;height:22px;"></div>
+          <div>
+            <div class="contact-detail-label">Response Time</div>
+            <div class="contact-detail-value">Within 24 hours</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">EBCP</div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="property.html">Property</a>
+        <a href="business.html">Business</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-copy">© 2025 Andrew Buskirk · Danville, CA</div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

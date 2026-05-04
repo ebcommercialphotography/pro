@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EBCP — East Bay Commercial Photography</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <img src="logo.png" alt="EBCP" class="nav-logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+        <span class="nav-logo-text" style="display:none;">EBCP</span>
+      </a>
+      <button class="nav-hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="property.html">Property</a></li>
+        <li><a href="business.html">Business</a></li>
+        <li><a href="contact.html" class="nav-cta">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-bg">
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content reveal">
+      <p class="eyebrow">East Bay Commercial Photography</p>
+      <h1 class="hero-title">Your space, your business —<br><em>seen the way it deserves.</em></h1>
+      <p class="hero-sub">Professional photography for properties and businesses across the East Bay. Real results, fast turnaround.</p>
+      <div class="hero-btns">
+        <a href="contact.html" class="btn-primary">Book a Shoot</a>
+        <a href="#work" class="btn-ghost">See My Work ↓</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="stats reveal">
+    <div class="stat">
+      <div class="stat-icon"><img src="icon-bolt.png" alt="" onerror="this.outerHTML='⚡'" style="width:28px;height:28px;margin:0 auto;"></div>
+      <div class="stat-num">48hr</div>
+      <div class="stat-label">Photo delivery turnaround, guaranteed</div>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat">
+      <div class="stat-icon"><img src="icon-pin.png" alt="" onerror="this.outerHTML='📍'" style="width:28px;height:28px;margin:0 auto;"></div>
+      <div class="stat-num">Local</div>
+      <div class="stat-label">Born and raised in Danville, CA — I know the East Bay</div>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat">
+      <div class="stat-icon"><img src="icon-grad.png" alt="" onerror="this.outerHTML='🎓'" style="width:28px;height:28px;margin:0 auto;"></div>
+      <div class="stat-num">HS Senior</div>
+      <div class="stat-label">Young, driven, and building something real this summer</div>
+    </div>
+  </section>
+
+  <section class="process-section" id="process">
+    <div class="section-header reveal">
+      <p class="eyebrow">How It Works</p>
+      <h2 class="section-title">Simple process.<br><em>Fast results.</em></h2>
+    </div>
+    <div class="process-grid">
+      <a href="contact.html" class="process-card reveal">
+        <div class="process-num">01</div>
+        <div class="process-icon"><img src="icon-contact.png" alt="Contact" onerror="this.outerHTML='✉️'"></div>
+        <h3>Reach Out</h3>
+        <p>Fill out the contact form or send a message. Tell me what you need — property, business, or both. No complicated back and forth.</p>
+      </a>
+      <a href="contact.html" class="process-card reveal">
+        <div class="process-num">02</div>
+        <div class="process-icon"><img src="icon-plan.png" alt="Plan" onerror="this.outerHTML='🤝'"></div>
+        <h3>Agree on a Plan</h3>
+        <p>We find a package that fits your goals and budget. I'll recommend the right option — no pressure, no upsell.</p>
+      </a>
+      <a href="#work" class="process-card reveal">
+        <div class="process-num">03</div>
+        <div class="process-icon"><img src="icon-camera.png" alt="Camera" onerror="this.outerHTML='📷'"></div>
+        <h3>The Shoot</h3>
+        <p>I show up, handle everything, and get the shots that make your space or business look exactly as good as it is in real life.</p>
+      </a>
+      <a href="#work" class="process-card reveal">
+        <div class="process-num">04</div>
+        <div class="process-icon"><img src="icon-gallery.png" alt="Gallery" onerror="this.outerHTML='🖼️'"></div>
+        <h3>Photos in 48 Hours</h3>
+        <p>Your edited gallery lands in your inbox within 48 hours. Web and print resolution both included, ready to use immediately.</p>
+      </a>
+    </div>
+  </section>
+
+  <section class="work-section" id="work">
+    <div class="section-header reveal">
+      <p class="eyebrow">What I Shoot</p>
+      <h2 class="section-title">Two categories.<br><em>One photographer.</em></h2>
+      <p class="section-sub">Whether you need a property that books faster or a business that shows up better online — I make it happen.</p>
+    </div>
+    <div class="work-grid">
+      <div class="work-card reveal">
+        <div class="work-card-img property-placeholder">
+          <div class="work-card-img-label">Property Photography</div>
+        </div>
+        <div class="work-card-body">
+          <div class="work-tag"><span class="tag-dot tag-blue"></span>Spaces</div>
+          <h3>Property Photography</h3>
+          <p>Real estate listings, Airbnb and VRBO launch packages, and business interiors. Clean, bright, and optimized for wherever the photos need to go.</p>
+          <a href="property.html" class="work-link">View Property Work <span class="arrow">→</span></a>
+        </div>
+      </div>
+      <div class="work-card reveal">
+        <div class="work-card-img business-placeholder">
+          <div class="work-card-img-label">Business Photography</div>
+        </div>
+        <div class="work-card-body">
+          <div class="work-tag"><span class="tag-dot tag-green"></span>Business</div>
+          <h3>Commercial Photography</h3>
+          <p>Google My Business packages, restaurant and food photography, product shots, and local business visuals that turn searchers into customers.</p>
+          <a href="business.html" class="work-link">View Business Work <span class="arrow">→</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-banner reveal">
+    <div class="cta-inner">
+      <p class="eyebrow">Ready?</p>
+      <h2>Bring your ideas <em>to life.</em></h2>
+      <p class="cta-sub">Let's figure out the right package and get something on the calendar.</p>
+      <a href="contact.html" class="btn-primary">Get in Touch</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">EBCP</div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="property.html">Property</a>
+        <a href="business.html">Business</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-copy">© 2025 Andrew Buskirk · Danville, CA</div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
