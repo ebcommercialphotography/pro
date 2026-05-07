@@ -256,6 +256,16 @@ em { font-style: italic; color: var(--blue); }
   h2 { font-size: 72px; }
   h3 { font-size: 28px; }
 
+.hero-content { padding: 120px var(--pad); }
+.hero-title { max-width: 1000px; }
+.hero-sub { max-width: 700px; }
+
+.section-header { max-width: 800px; }
+.page-hero-inner { max-width: 900px; }
+.page-hero-sub { max-width: 700px; }
+
+.cta-inner { max-width: 700px; }
+
   .hero-sub { font-size: 20px; max-width: 640px; }
   .hero-btns { gap: 24px; }
 
