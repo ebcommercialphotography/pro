@@ -268,12 +268,24 @@ em { font-style: italic; color: var(--blue); }
 
   .hero-sub { font-size: 20px; max-width: 640px; }
   .hero-btns { gap: 24px; }
+   .hero-content { 
+  max-width: 100%; 
+  padding: 120px 160px;
+}
 
   .stats { padding: 0 var(--pad) 100px; }
   .stat { padding: 48px 40px; }
   .stat-num { font-size: 48px; }
   .stat-label { font-size: 15px; }
   .stat-icon img { width: 36px; height: 36px; }
+
+   .stats { max-width: 100%; padding: 0 160px 100px; }
+.process-section { max-width: 100%; padding: 100px 160px; }
+.work-section { max-width: 100%; padding: 0 160px 100px; }
+.pricing-section { max-width: 100%; padding: 72px 160px; }
+.coverage-section { max-width: 100%; padding: 72px 160px; }
+.contact-section { max-width: 100%; padding: 72px 160px; }
+.gallery-section .section-header { max-width: 100%; padding: 0 160px; }
 
   .process-section { padding: 100px var(--pad); }
   .process-grid { gap: 24px; }
