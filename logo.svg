@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 60">
+  <g transform="translate(30, 30)">
+    <polygon points="0,-22 19,-11 19,11 0,22 -19,11 -19,-11" fill="none" stroke="#a8c8e8" stroke-width="1.5"/>
+    <polygon points="0,-15 13,-7.5 13,7.5 0,15 -13,7.5 -13,-7.5" fill="none" stroke="#a8c8e8" stroke-width="0.5" opacity="0.4"/>
+    <line x1="0" y1="-22" x2="0" y2="-15" stroke="#a8c8e8" stroke-width="0.5" opacity="0.4"/>
+    <line x1="19" y1="-11" x2="13" y2="-7.5" stroke="#a8c8e8" stroke-width="0.5" opacity="0.4"/>
+    <line x1="19" y1="11" x2="13" y2="7.5" stroke="#a8c8e8" stroke-width="0.5" opacity="0.4"/>
+    <line x1="0" y1="22" x2="0" y2="15" stroke="#a8c8e8" stroke-width="0.5" opacity="0.4"/>
+    <line x1="-19" y1="11" x2="-13" y2="7.5" stroke="#a8c8e8" stroke-width="0.5" opacity="0.4"/>
+    <line x1="-19" y1="-11" x2="-13" y2="-7.5" stroke="#a8c8e8" stroke-width="0.5" opacity="0.4"/>
+    <circle cx="0" cy="0" r="5" fill="none" stroke="#a8c8e8" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="1.5" fill="#a8c8e8"/>
+  </g>
+  <text
+    x="64"
+    y="37"
+    font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+    font-size="18"
+    font-weight="300"
+    fill="#a8c8e8"
+    letter-spacing="6"
+  >EBCP</text>
+</svg>
