@@ -125,8 +125,9 @@ em { font-style: italic; color: var(--blue); }
 .work-card { background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--radius-lg); overflow: hidden; transition: border-color 0.2s, transform 0.2s; }
 .work-card:hover { border-color: rgba(168,200,232,0.25); transform: translateY(-2px); }
 .work-card-img { width: 100%; aspect-ratio: 16/9; position: relative; overflow: hidden; }
+.work-card-img::after { content: ''; position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0) 50%); z-index: 1; }
 .work-card-img img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; }
-.work-card-img-label { position: absolute; bottom: 16px; left: 16px; z-index: 1; }
+.work-card-img-label { position: absolute; bottom: 16px; left: 16px; z-index: 2; }
 .property-placeholder { background: linear-gradient(135deg, #2a3040 0%, #1e2535 100%); }
 .business-placeholder { background: linear-gradient(135deg, #2a3028 0%, #1e2520 100%); }
 .work-card-img-label { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.3); }
