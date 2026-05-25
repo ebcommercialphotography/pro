@@ -23,7 +23,7 @@
   --font-serif:   'Instrument Serif', Georgia, serif;
   --font-sans:    'Geist', system-ui, sans-serif;
   --nav-h:        64px;
-  --max-w:        1500px;
+  --max-w:        1600px;
   --pad:          clamp(20px, 5vw, 60px);
 }
 
