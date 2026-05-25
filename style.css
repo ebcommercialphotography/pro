@@ -124,7 +124,9 @@ em { font-style: italic; color: var(--blue); }
 .work-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
 .work-card { background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--radius-lg); overflow: hidden; transition: border-color 0.2s, transform 0.2s; }
 .work-card:hover { border-color: rgba(168,200,232,0.25); transform: translateY(-2px); }
-.work-card-img { width: 100%; aspect-ratio: 16/9; display: flex; align-items: flex-end; padding: 16px; }
+.work-card-img { width: 100%; aspect-ratio: 16/9; position: relative; overflow: hidden; }
+.work-card-img img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; }
+.work-card-img-label { position: absolute; bottom: 16px; left: 16px; z-index: 1; }
 .property-placeholder { background: linear-gradient(135deg, #2a3040 0%, #1e2535 100%); }
 .business-placeholder { background: linear-gradient(135deg, #2a3028 0%, #1e2520 100%); }
 .work-card-img-label { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.3); }
